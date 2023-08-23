@@ -1,0 +1,65 @@
+.btn_container {
+  height: 66px;
+  width: 222px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_text {
+  height: 100%;
+  width: 100%;
+  font-family: "Cardo";
+  background: #ffca42;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  cursor: pointer;
+  border: none;
+  color: #1b3764;
+  border: 2px solid #ffca42;
+}
+
+.modal__frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100%;
+}
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 90%;
+  margin: 0 auto;
+  align-items:center;
+}
+
+.modal__form input {
+  width: 80%;
+  height: 80px;
+  font-size: 40px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.modal__order_details {
+  font-size: 44px;
+}
+
+.modal__frame svg {
+  margin: 10px; 
+  font-size: larger; 
+}
+
+.modal__frame button{
+  font-size: 42px;
+}
+
+.invalid_input {
+  border: 2px solid red;
+}

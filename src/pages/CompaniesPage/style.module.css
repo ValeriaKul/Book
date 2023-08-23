@@ -1,0 +1,67 @@
+.page_company {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0 0 0;
+  gap: 20px;
+}
+
+.part2_company {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 70px 30px;
+  background: #1b3764;
+}
+
+.companies_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 50px 0;
+}
+.part2_descr_title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.part2_descr {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  gap: 30px;
+  color: #ffffff;
+}
+
+.part2_image {
+  width: 60%;
+}
+
+.part2_image_book {
+  width: 90%;
+}
+
+@media only screen and (max-width: 930px) {
+  .companies_container {
+    flex-direction: column;
+  }
+
+  .part2_company {
+    flex-direction: column;
+    align-items: center;
+  }
+  .part2_descr {
+    width: 90%;
+  }
+
+  .part2_descr_title {
+    font-size: 22px;
+  }
+}

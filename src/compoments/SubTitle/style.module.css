@@ -1,0 +1,20 @@
+.subTitle {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1b3764;
+}
+
+.white {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #ffffff;
+}

@@ -1,0 +1,67 @@
+.item {
+  gap: 30px;
+  align-items: center;
+}
+
+.descr_total,
+.item {
+  justify-content: center;
+  display: flex;
+}
+
+.title,
+span {
+  font-family: "Cardo";
+  font-style: normal;
+  color: #1b3764;
+  letter-spacing: 0.32px;
+}
+
+.description,
+.price {
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.price {
+  font-size: 21px;
+  line-height: 33px;
+  color: #ffca42;
+}
+
+.description {
+  font-size: 19px;
+  line-height: 28px;
+  color: #969aa0;
+}
+
+span {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.book_img {
+  width: 285px;
+  height: 382px;
+  object-fit: contain;
+  filter: drop-shadow(0px 0px 11px rgba(0, 0, 0, 0.2));
+}
+
+.descr_total {
+  flex-direction: column;
+  width: 350px;
+  height: 100%;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 643px) {
+      .item {
+        flex-direction: column;
+        height: fit-content;
+        width: 90%;
+      }
+
+  }

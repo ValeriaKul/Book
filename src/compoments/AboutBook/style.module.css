@@ -1,0 +1,25 @@
+.about_book {
+  display: flex;
+  gap: 4vw;
+  margin-top: 1vw;
+}
+
+.book_caracter {
+  margin: 0 0 0 0.5rem;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  color: #ffffff;
+}
+
+.book_descr {
+  margin: 0.5rem 0 0 1.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #b4c7e7;
+}

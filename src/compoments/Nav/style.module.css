@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navigation a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #f6f8fc;
+  text-decoration: none;
+}
+
+.navigation .active {
+  color: #ffca42;
+}
+
+
+@media only screen and (max-width: 969px) {
+  .navigation{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+}

@@ -1,0 +1,92 @@
+.footer {
+  background: rgba(27, 55, 100, 1);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: auto;
+  padding: 30px 50px;
+  height: 300px;
+}
+
+.icons,
+.explore,
+.address {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer,
+.icons,
+.explore,
+.explore_link,
+.line,
+.address {
+  display: flex;
+}
+
+.title,
+.title_min {
+  font-family: "Cardo";
+  color: #ffffff;
+}
+
+.title_min {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+}
+
+.explore_link {
+  align-items: center;
+  gap: 8px;
+}
+.explore_link p,
+.description {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #b4c7e7;
+}
+
+.title,
+.explore_link p,
+.title_min {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.384px;
+  padding-bottom: 20px;
+}
+
+.line {
+  gap: 20px;
+}
+
+.name {
+  width: 70px;
+}
+
+.icons {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media only screen and (max-width: 1039px) {
+ 
+.explore, .icons {
+  display: none;
+}
+
+.footer {
+  justify-content: space-around;
+}
+}
+

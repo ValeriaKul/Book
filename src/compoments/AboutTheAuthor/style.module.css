@@ -1,0 +1,102 @@
+.page {
+  background: #f5f8fc;
+  padding: 40px 20px 80px 20px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  max-width: 1400px;
+}
+
+.image {
+  height: 620px;
+  width: 525px;
+  box-shadow: rgba(245, 248, 252, 1) 40px 40px 0px -10px,
+    rgba(255, 202, 66, 1) 40px 40px;
+}
+
+.photo {
+  padding: 20px;
+}
+
+.qrcode_img {
+  width: 150px;
+  height: 150px;
+  padding: 12px;
+}
+
+.rating_author {
+  display: flex;
+}
+.rat_books,
+.rat_reviews {
+  border-right: 2px solid #ffca42;
+}
+
+.rat_books {
+  padding: 10px 30px 10px 0;
+  text-align: start;
+}
+
+.rat_awards,
+.rat_reviews {
+  padding: 10px 30px;
+}
+.contacts {
+  background: #1b3764;
+  display: flex;
+  width: fit-content;
+}
+
+.descr_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.authors_name {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffca42;
+}
+
+.authors_cont {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #b4c7e7;
+}
+
+.authors_cont a {
+  text-decoration: none;
+  color: #b4c7e7;
+}
+
+.descr_author {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  width: 610px;
+}
+
+
+
+@media only screen and (max-width: 651px) {
+ 
+  .image {
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+  }
+
+  
+  }
