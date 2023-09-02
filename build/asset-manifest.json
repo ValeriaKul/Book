@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/book/static/css/main.d36b289c.css",
+    "main.js": "/book/static/js/main.ffd7b515.js",
+    "static/media/girl_articles.jpg": "/book/static/media/girl_articles.d237d0a4600d2bfcc95a.jpg",
+    "static/media/author.jpg": "/book/static/media/author.cae775a4b814797fd9d1.jpg",
+    "static/media/book.png": "/book/static/media/book.4a46960e208d71b1e20c.png",
+    "static/media/bookCore.jpg": "/book/static/media/bookCore.0bfb4c7c667aff0096c8.jpg",
+    "static/media/book1.jpg": "/book/static/media/book1.77b0ddfba84ae2a8c332.jpg",
+    "static/media/res1.jpg": "/book/static/media/res1.57e8caa3534adfcc73eb.jpg",
+    "static/media/res2.jpg": "/book/static/media/res2.0aa797252f3828a1c11e.jpg",
+    "static/media/res3.jpg": "/book/static/media/res3.5e7ba54d5298029a2b84.jpg",
+    "static/media/error.png": "/book/static/media/error.a3a8029a184987627443.png",
+    "static/media/Megan.jpg": "/book/static/media/Megan.dd3350b9390dc35a72b3.jpg",
+    "static/media/Urban.jpg": "/book/static/media/Urban.b523c36a021731ad17e8.jpg",
+    "static/media/MeganK.jpg": "/book/static/media/MeganK.bef0311c2f0693285c1d.jpg",
+    "static/media/qrcode.jpg": "/book/static/media/qrcode.c0effd26a331da7185dc.jpg",
+    "static/media/Amazen.jpg": "/book/static/media/Amazen.9f63694b7a7b525f612e.jpg",
+    "index.html": "/book/index.html",
+    "main.d36b289c.css.map": "/book/static/css/main.d36b289c.css.map",
+    "main.ffd7b515.js.map": "/book/static/js/main.ffd7b515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36b289c.css",
+    "static/js/main.ffd7b515.js"
+  ]
+}
