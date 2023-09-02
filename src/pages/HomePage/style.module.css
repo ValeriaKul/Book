@@ -24,7 +24,7 @@
   margin: auto;
   max-width: 1400px;
   flex-wrap: wrap;
-  /* height: calc(100vh - 350px); */
+  height: fit-content;
 }
 .homepage span {
   height: 36px;
